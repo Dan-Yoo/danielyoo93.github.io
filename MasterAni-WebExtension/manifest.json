@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "MasterAni Newtab",
+  "description": "Enhance and customize your newtab with an anime organizing newtab",
+  "version": "0.0.0.1",
+
+  "browser_action": {
+  	"default_title": "Anime Tracker Newtab"
+  },
+  "chrome_url_overrides": {
+    "newtab": "html/index.html"
+  },
+  "background": {
+    "scripts": ["js/background.js"]
+  },
+  "incognito": "split",
+  "permissions": ["tabs","<all_urls>", "https://myanimelist.net"],
+  "short_name": "Anime Newtab"
+}

@@ -1,0 +1,133 @@
+body {
+	margin: 0px;
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+	background-color: #171717;
+	font-family: 'Roboto Condensed',Helvetica,sans-serif;
+}
+
+div {
+	display: block;
+}
+
+#body-wrapper {
+	width: 100%;
+	height: 100%;
+}
+
+#header {
+	top: 0;
+	height: 100px;
+	width: 100%;
+	position: relative;
+}
+
+#content {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+}
+
+.column {
+	display: inline-block;
+	position: relative;
+	width: 600px;
+	height: 500px;
+	margin: 0 30px;
+}
+
+.column-header {
+	position: relative;
+	width: 100%;
+	height: 50px;
+	margin-bottom: 15px;
+	line-height: 50px;
+	vertical-align: middle;
+	text-align: center;
+	font-size: 32px;
+	color: white;
+}
+
+.column-body {
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	height: 450px;
+}
+
+
+.column-row {
+	position: relative;
+	display: table;
+	background-color: #101010;
+	border-radius: 6px;
+	width: 100%;
+	margin: 2px 0;
+	height: 50px;
+	line-height: 50px;
+	vertical-align: middle;
+	font-size: 18px;
+	color: white;
+	cursor: pointer;
+}
+
+.search {
+	margin-bottom: 20px;
+}
+
+.column-row:hover {
+	background-color: #090909;
+}
+
+.title {
+	margin-left: 20px;
+	float: left;
+}
+
+.row-button {
+	position: relative;
+	float: right;
+	margin-right: 20px;
+	color: white;
+	cursor: pointer;
+	margin-top: 10px;
+	text-align: center;
+	display: table;
+	line-height: 30px;
+	z-index: 1;
+}
+
+.row-button span {
+	vertical-align: middle;
+}
+.remove:hover {
+	color: #E50911;
+}
+
+.add {
+	font-size: 28px;
+}
+
+.add:hover {
+	color: #E50911;
+}
+
+.search-input {
+	float: left;
+	margin-left: 20px;
+	width: 400px;
+	height: 20px;
+	margin-top: 15px;
+}
+
+input {
+	border: 0;
+ 	outline: 0;
+	background: transparent;
+	color: white;
+	font-size: 18px;
+}
+
+

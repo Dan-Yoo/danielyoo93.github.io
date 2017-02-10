@@ -1,0 +1,32 @@
+.autocomplete-suggestions {
+    text-align: left; cursor: default;
+    background: #101010; 
+
+    /* core styles should not be changed */
+    position: absolute; 
+    display: none; 
+    z-index: 9999; 
+    max-height: 254px;
+    overflow: hidden; 
+    overflow-y: auto; 
+    margin-top: 10px;
+}
+.autocomplete-suggestion { 
+	position: relative; 
+	padding: 2px; 
+	line-height: 36px; 
+	white-space: nowrap; 
+	overflow: hidden; 
+	text-overflow: ellipsis; 
+	font-size: 18px;
+	font-family: 'Roboto Condensed',Helvetica,sans-serif; 
+	color: white; 
+}
+
+.autocomplete-suggestion b { 
+	font-weight: normal; 
+	color: #E50911; 
+}
+.autocomplete-suggestion.selected { 
+	background: #080808; 
+}
